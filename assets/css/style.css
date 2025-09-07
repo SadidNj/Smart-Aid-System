@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; background: #7fa7b1; }
+input, button { padding:8px; width: 90%; box-sizing: border-box; }
+button { background:#007bff; color:#fff; border:none; padding:10px; border-radius:4px; cursor:pointer; }
+button:hover { opacity:0.9; }

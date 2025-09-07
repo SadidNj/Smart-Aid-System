@@ -1,0 +1,1 @@
+<?php header('Location: view/pollution_alerts.php'); exit(); ?>

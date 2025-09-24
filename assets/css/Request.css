@@ -1,0 +1,26 @@
+@import url("./Emergency.css");
+/* Request page layout */
+.grid{
+  display:grid;
+  grid-template-columns: 1.1fr 1.1fr 0.9fr;
+  gap:18px;
+  margin-top:18px;
+}
+.col .list{display:flex; flex-direction:column; gap:10px}
+.list-item{
+  border:1px solid rgba(148,163,184,.16);
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.00));
+  padding:12px 14px; border-radius:12px;
+}
+.badge{
+  display:inline-block; padding:4px 10px; font-size:12px; 
+  border-radius:999px; margin:0 8px 6px 0;
+  color:#06101a; background: linear-gradient(180deg, #9975df, #0bf5be);
+}
+.form-grid.compact{ display:grid; grid-template-columns: repeat(2,1fr); gap:12px; align-items:flex-end; }
+.form-grid.compact .full{ grid-column: 1 / -1; }
+
+@media (max-width: 900px){
+  .grid{ grid-template-columns: 1fr; }
+  .container{ margin: 24px auto; }
+}

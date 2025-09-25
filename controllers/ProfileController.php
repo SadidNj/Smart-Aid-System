@@ -12,15 +12,21 @@ class ProfileController
 
 
     public function show()
-    {
-        if (!isset($_SESSION['user_id'])) {
-            header("Location: index.php?action=login");
-            exit();
-        }
-
-        $user = $this->userModel->findById($_SESSION['user_id']);
-        require '../views/profile/edit.php';
+    public function show()
+{
+    if (!isset($_SESSION['user_id'])) {
+        header("Location: index.php?action=login");
+        exit();
     }
+
+    if ($_SESSION['role'] === 'guest') {
+        header("Location: index.php?action=signup");
+        exit();
+    }
+
+    $user = $this->userModel->findById($_SESSION['user_id']);
+    require '../views/profile/edit.php';
+}
 
  
     public function update()

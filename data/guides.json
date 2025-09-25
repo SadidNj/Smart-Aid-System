@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Burns",
+    "steps": [
+      "Cool the burn with running water for at least 10 minutes.",
+      "Do not apply ice directly.",
+      "Cover with a clean, non-fluffy cloth or sterile dressing.",
+      "Seek medical help if burn is severe."
+    ],
+    "training": "Practice safe handling of hot objects and learn basic burn first aid.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/First_aid_for_burns.png"
+  },
+  {
+    "id": 2,
+    "title": "Cuts and Bleeding",
+    "steps": [
+      "Apply pressure to stop bleeding.",
+      "Clean the wound with clean water.",
+      "Cover with a sterile bandage.",
+      "Seek medical help if bleeding continues."
+    ],
+    "training": "Learn wound cleaning and bandaging techniques in a first aid course.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/First_aid_bandage.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Choking",
+    "steps": [
+      "Ask the person to cough.",
+      "If unable to breathe, perform 5 back blows between shoulder blades.",
+      "Perform abdominal thrusts (Heimlich maneuver).",
+      "Call emergency services if obstruction persists."
+    ],
+    "training": "Practice Heimlich maneuver on training dummies in CPR/first aid sessions.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abdominal-thrusts.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Fractures",
+    "steps": [
+      "Immobilize the affected area.",
+      "Apply a splint if trained.",
+      "Do not try to straighten the bone.",
+      "Seek medical attention immediately."
+    ],
+    "training": "Learn splinting and immobilization methods during first aid training.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Splinting_arm_injury.jpg"
+  }
+]

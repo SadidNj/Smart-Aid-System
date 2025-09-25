@@ -1,43 +1,36 @@
-<!doctype html>
+<?php
+// firstaid.php expects $guides variable to be available
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
   <title>First Aid Guides</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <style>
-    body {
-      background: url("assets/img/firstaid-bg.jpg") no-repeat center center fixed;
-      background-size: cover;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/firstaid.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="icon" href="assets/img/firstaid.jpg">
 </head>
 <body>
-<header class="site-header">
-  <h1>⛑ First Aid Guides</h1>
-  <nav>
-    <a href="index.php">Home</a>
-    <a href="index.php?page=pollution">Pollution</a>
-    <a href="index.php?page=firstaid">First Aid</a>
-  </nav>
-</header>
+  <header>
+    <nav>
+      <img src="assets/img/firstaid.jpg" alt="firstaid logo" width="32" height="32">
+      <a href="index.php">Home</a> |
+      <a href="index.php?action=list">Guides</a> |
+      <a href="index.php?&action=logout">Logout</a>
 
-<main class="section">
-  <h2>Step-by-Step Emergency Instructions</h2>
-  <div class="grid guides-grid" id="firstAidGuides">
-    <?php foreach ($guides as $g): ?>
-      <div class="card">
-        <h3><?= $g['title']; ?></h3>
-        <p><?= $g['desc']; ?></p>
-      </div>
-    <?php endforeach; ?>
-  </div>
-</main>
+    </nav>
+    <h1>🩺 First Aid Guides</h1>
+    <p>Logged in as: <?= htmlspecialchars($_SESSION['user']) ?></p>
+    <input type="text" id="searchInput" placeholder="Search guides by title or steps...">
+  </header>
 
-<footer class="site-footer">
-  <p>© <?= date('Y'); ?> SmartAid Project</p>
-</footer>
+  <main>
+    <div id="guideList">
+      
+    </div>
+    <div id="guideDetail" style="display:none;"></div>
+  </main>
 
-<script src="assets/js/firstaid.js"></script>
+  <script src="assets/js/firstaid.js"></script>
 </body>
 </html>

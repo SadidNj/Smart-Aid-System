@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <title>Real-time Pollution Alerts</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="assets/img/pollution.jpg"">
 </head>
 <body style="background: #3e8495ff; font-family: Arial, sans-serif; text-align: center; padding: 20px;">
+    <header style="background: #93acc4ff;
+            padding: 15px 20px;
+            color: #fff;">
+    <nav style="display: flex;
+            justify-content: space-between;
+            align-items: center;">
+       
+        <div class="links">
+            <a href="../index.php">Home</a>
+            <a href="../index.php?action=list">Guides</a>
+            <a href="pollution_alerts.php">Pollution Alerts</a>
+            <a href="../index.php?action=logout">Logout</a>
+        </div>
+    </nav>
+</header>
+    
     <h1>Real-time Air Quality & Pollution Notifications</h1>
     <?php if (isset($_GET['msg'])): ?>
         <p style="color: green;"><?php echo htmlspecialchars($_GET['msg']); ?></p>

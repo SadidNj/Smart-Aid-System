@@ -1,5 +1,5 @@
 <?php
-  // Basic form handler (same page). Replace with real email logic on production.
+ 
   $submitted = false;
   $errors = [];
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -24,13 +24,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SmartAid — Aid Made Simple</title>
-  <meta name="description" content="SmartAid: a modern, responsive landing page for healthcare & aid services.">
-  <meta property="og:title" content="SmartAid — Aid Made Simple">
-  <meta property="og:description" content="A clean, high‑converting landing page template.">
-   <meta property="og:url" content="https://yourdomain.com"> 
-  <meta property="og:image" content="https://yourdomain.com/assets/img/smartaid-og.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  
   <link rel="stylesheet" href="../assets/css/landing.css">
   <link rel="icon" href="../assets/img/logo.svg">
 </head>
@@ -45,7 +39,10 @@
         <a href="#features">Features</a>
         <a href="#how">How it works</a>
         <a href="#faq">FAQ</a>
+        <a href="pollution_alerts.php" class="btn btn-sm">Pollution Alert</a>
+        <a href="../index.php" class="btn btn-sm">FirstAid</a>
         <a href="#contact" class="btn btn-sm">Contact</a>
+       
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu" aria-expanded="false">
         <span></span><span></span><span></span>

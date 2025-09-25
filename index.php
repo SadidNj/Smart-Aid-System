@@ -11,7 +11,7 @@ if (!isset($_SESSION['user'])) {
     }
 }
 
-// কোন module দেখাবো সেটা নেব
+
 $module = $_GET['module'] ?? 'firstaid';
 
 // ---------------- FIRST AID ----------------

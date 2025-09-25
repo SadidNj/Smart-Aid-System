@@ -64,7 +64,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* New Homepage Styles */
+
 .homepage-container {
     width: 90%;
     max-width: 1200px;
@@ -254,7 +254,7 @@ a:hover {
 .about-text {
     color: #555;
     line-height: 1.6;
-    min-height: 80px; /* Ensures cards have similar height */
+    min-height: 80px; 
 }
 
 .social-links {
@@ -292,4 +292,46 @@ a:hover {
 .back-button:hover {
     background: #5a6268;
     text-decoration: none;
+}
+
+
+.profile-container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.profile-form .form-group {
+    margin-bottom: 20px;
+}
+
+.profile-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.profile-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; 
+}
+
+.profile-container button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.back-button-profile {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
 }

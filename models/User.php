@@ -34,4 +34,18 @@ class User
         $stmt = $this->pdo->prepare("UPDATE users SET password=? WHERE email=?");
         return $stmt->execute([$hashedPassword, $email]);
     }
+
+    public function findById($id)
+{
+    $stmt = $this->pdo->prepare("SELECT * FROM users WHERE id = ?");
+    $stmt->execute([$id]);
+    return $stmt->fetch(PDO::FETCH_ASSOC);
+}
+public function updateProfile($id, $username, $email, $phone, $location)
+{
+    $stmt = $this->pdo->prepare(
+        "UPDATE users SET username = ?, email = ?, phone = ?, location = ? WHERE id = ?"
+    );
+    return $stmt->execute([$username, $email, $phone, $location, $id]);
+}
 }

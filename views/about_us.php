@@ -15,7 +15,7 @@
 
         <main class="team-grid">
             <section class="team-member-card">
-                <h2>MD. Musfique Mortuza Sadid</h2>
+                <h2>MD. MUSFIQUE MORTUZA SADID</h2>
                 <p class="about-text">A multiskilled FullStack Developer and hardworking individual capable of adapting to diverse tasks with a passion for learning and sharing knowledge. .</p>
                 <div class="social-links">
                     <a href="https://github.com/SadidNj" title="GitHub"><i class="fab fa-github"></i></a>
@@ -28,14 +28,14 @@
             </section>
 
             <section class="team-member-card">
-                <h2>Shirin Mahbuba Sara</h2>
+                <h2>SHIRIN MAHBUBA SARA</h2>
                 <p class="about-text">A Developer.</p>
                 <div class="social-links">
-                    <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/ShirinMahbuba" title="GitHub"><i class="fab fa-github"></i></a>
                     <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="#" title="Website"><i class="fas fa-globe"></i></a>
                     <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="mailto:example2@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="mailto:sara@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
                     <a href="tel:+8801234567891" title="Phone"><i class="fas fa-phone"></i></a>
                 </div>
             </section>
@@ -44,11 +44,11 @@
                 <h2>FARDIN-AL-SEZAN</h2>
                 <p class="about-text">A Developer.</p>
                 <div class="social-links">
-                    <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" title="Website"><i class="fas fa-globe"></i></a>
-                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="mailto:example3@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/FARDIN-SEZAN" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/fardin-al-sezan-07a72927b" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://sites.google.com/view/fardinalsezan/home" title="Website"><i class="fas fa-globe"></i></a>
+                    <a href="https://www.facebook.com/fardin.al.sezan" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="mailto:fardin12sezan@gmail.com@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
                     <a href="tel:+8801234567892" title="Phone"><i class="fas fa-phone"></i></a>
                 </div>
             </section>

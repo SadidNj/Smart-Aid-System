@@ -42,7 +42,7 @@ $userRole = $_SESSION['role'] ?? 'user';
             <?php endif; ?>
             <p>Access your personal tools and information.</p>
             <div class="card-actions">
-                <a href="#">View Your Profile</a>
+                <a href="index.php?action=edit_profile">Edit Your Profile</a>
                 <a href="#">Check Appointments</a>
                 <a href="#">Settings</a>
             </div>

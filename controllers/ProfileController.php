@@ -12,7 +12,6 @@ class ProfileController
 
 
     public function show()
-    public function show()
 {
     if (!isset($_SESSION['user_id'])) {
         header("Location: index.php?action=login");
